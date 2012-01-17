@@ -1,0 +1,21 @@
+
+These scripts are known to work on the Telit GE-875-QUAD
+on the sparkfun pcboard.
+
+To execute these, one first loads them into the
+Telit module through the serial interface,
+naming them on the telit the same name provided here.
+Case matters.
+
+Load each file using 
+AT#WSCRIPT="mytest.py",....
+
+Do an ls -lt on a linux machine to know how many bytes
+are to be sent using WSCRIPT
+
+
+Once these are loaded, one must activate the
+starting script and then execute it.
+The activate script is "main.py"
+
+
